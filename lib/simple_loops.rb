@@ -26,10 +26,10 @@ def return_string_array(array)
   result = []
   count = 0 
   while array[count] do
-    array.push(array[count].to_s)
+    result.push(array[count].to_s)
     count += 1 
   end
-  return result
+  result
 end
 
 
